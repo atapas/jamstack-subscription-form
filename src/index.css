@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: #efc0ff;
+    padding: 0.4rem;
+}
+
+h1{
+    margin:0;
+}
+
+h2{
+    margin: 0.3rem auto;
+}
+
+p{
+    padding: 0 0 0 0.4rem;
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+label{
+    margin-top: 0.6rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.3rem;
+}
+
+input{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+}
+
+button{
+    margin: 1rem auto;
+    padding: 5px;
+    border-radius: 4px;
+    border-color: #9a00ff;
+    background-color: #9a00ff;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 2rem;
+    cursor: pointer;
+}

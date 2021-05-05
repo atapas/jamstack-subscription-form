@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Monthly Bytes</h1>
+    </header>
+    <p>Please fill-up the form below to subscribe to our <b>M</b>onthly <b>B</b>ytes newsletter. 
+     We send you the quality content every month.</p> 
+    <form 
+        action="/success"
+        method="POST"
+        name="signup">
+
+        <label for="uname">Username</label>
+        <input type="text" name="uname" id="uname" />
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" />
+
+        <label for="fullname">Full name</label>
+        <input type="text" name="fullname" id="fullname" />
+
+        
+        <div>
+            <h2>Interests</h2>
+            <input type="checkbox" id="js" name="js" value="JavaScript">
+            <label for="js"> JavaScript </label> <br/>
+            <input type="checkbox" id="python" name="python" value="Python">
+            <label for="python"> Python </label> <br/>
+            <input type="checkbox" id="php" name="php" value="PHP">
+            <label for="php"> PHP </label>
+        </div>
+
+        <button type="submit">Subscribe</button>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "jamstack-forms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tapas Adhikary <tapas.adhikary@gmail.com> (https://tapasadhikary.com)",
+  "license": "MIT"
+}
