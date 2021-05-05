@@ -1,1 +1,1 @@
-# jamstack-signup-form
+# jamstack-subscription-form
