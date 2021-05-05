@@ -55,3 +55,14 @@ button{
     font-size: 2rem;
     cursor: pointer;
 }
+
+.success{
+    margin: 40% auto;
+    width: 90%;
+    border: 3px solid #e351ad;
+    padding: 10px;
+    background-color: #e351ad;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 2.5rem;
+}
