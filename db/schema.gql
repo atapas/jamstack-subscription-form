@@ -1,0 +1,9 @@
+type Entry {
+  fullName: String!
+  email: String!
+  interests: [String!]!
+}
+
+type Query {
+  allEntries: [Entry!]!
+}

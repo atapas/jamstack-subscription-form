@@ -1,5 +1,5 @@
 {
-  "name": "jamstack-forms",
+  "name": "functions",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,19 @@
     "url": "git+https://github.com/atapas/jamstack-subscription-form.git"
   },
   "keywords": [
-    "HTML",
-    "CSS",
-    "forms",
-    "netlify"
+    "Netlify",
+    "Fauna",
+    "serverless",
+    "functions",
+    "lambda"
   ],
   "author": "Tapas Adhikary <tapas.adhikary@gmail.com> (https://tapasadhikary.com)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/atapas/jamstack-subscription-form/issues"
   },
   "homepage": "https://github.com/atapas/jamstack-subscription-form#readme",
-  "license": "MIT"
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
