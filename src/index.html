@@ -17,7 +17,12 @@
         action="/success"
         method="POST"
         name="subscription"
-        data-netlify="true" >
+        data-netlify="true"
+        netlify-honeypot="bot-field" >
+
+        <p class="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+        </p>
 
         <label for="fullName">Full name</label>
         <input type="text" name="fullName" id="fullName" />
