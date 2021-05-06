@@ -2,9 +2,11 @@ const fetch = require("node-fetch");
 
 exports.handler = async (event) => {
   const body = JSON.parse(event.body);
-  const { email, fullName, interests } = body.payload.data;
+  const data = body.payload.data;
+  console.log({data});
+  const { email, fullName, interests } = data;
 
-  console.log(email, fullName, interests);
+  console.log({email, fullName, interests});
 
   const response = await fetch("https://graphql.fauna.com/graphql", {
     method: "POST",
@@ -32,7 +34,7 @@ exports.handler = async (event) => {
     .then((res) => res.json())
     .catch((err) => console.error(err));
 
-  console.log(response);
+  console.log({response});
 
   return {
     statusCode: 302,
