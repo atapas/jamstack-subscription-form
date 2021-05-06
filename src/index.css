@@ -4,7 +4,8 @@ body{
 }
 
 header{
-    background-color: #efc0ff;
+    background-color:  #e351ad;
+    color: #FFFFFF;
     padding: 0.4rem;
 }
 
@@ -57,7 +58,7 @@ button{
 }
 
 .success{
-    margin: 40% auto;
+    margin: 2rem auto;
     width: 90%;
     border: 3px solid #e351ad;
     padding: 10px;
