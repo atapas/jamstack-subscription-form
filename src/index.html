@@ -1,52 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
     <title>Monthly Bytes</title>
 </head>
+
 <body>
     <header>
         <h1>Monthly Bytes</h1>
     </header>
-    <p>Please fill-up the form below to subscribe to our <b>M</b>onthly <b>B</b>ytes newsletter. 
-     We send you the quality content every month.</p> 
-    <form 
-        action="/success"
-        method="POST"
-        name="subscription"
-        data-netlify="true"
-        netlify-honeypot="bot-field" >
+    <div class="content">
+        <p>Please fill-up the form below to subscribe to our <b>M</b>onthly <b>B</b>ytes newsletter.
+            We send you the quality content every month.</p>
+        <form action="/success" method="POST" name="subscription" data-netlify="true" netlify-honeypot="bot-field">
 
-        <p class="hidden">
-            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-        </p>
+            <p class="hidden">
+                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
 
-        <label for="fullName">Full name</label>
-        <input type="text" name="fullName" id="fullName" />
+            <label for="fullName">Full name</label>
+            <input type="text" name="fullName" id="fullName" placeholder="We want to know your name" />
 
-        <label for="email">E-mail</label>
-        <input type="email" name="email" id="email" />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Tell us your e-mail id" />
 
-        <div>
-            <h2>Interests</h2>
-            <label>
-                <input type="checkbox" name="interests" value="JavaScript"> JavaScript
-            </label>
+            <div>
+                <h2>How frequently you want us to send it?</h2>
+                <label>
+                    <input type="radio" name="frequency" value="daily" checked> Daily
+                </label>
 
-            <label>
-                <input type="checkbox" name="interests" value="Python"> Python
-            </label>
+                <label>
+                    <input type="radio" name="frequency" value="weekly"> Weekly
+                </label>
+            </div>
 
-            <label>
-                <input type="checkbox" name="interests" value="PHP"> PHP
-            </label>
-        </div>
-
-        <button type="submit">Subscribe</button>
-    </form>
-    
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
 </body>
+
 </html>

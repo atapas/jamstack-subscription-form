@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding:0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -9,12 +10,16 @@ header{
     padding: 0.4rem;
 }
 
+.content {
+    padding: 5px;
+}
+
 h1{
     margin:0;
 }
 
 h2{
-    margin: 0.3rem auto;
+    margin: 2rem 0 0.5rem 0;
 }
 
 p{
@@ -25,7 +30,7 @@ p{
 form {
     display: flex;
     flex-flow: column wrap;
-    max-width: 380px;
+    max-width: 410px;
     margin: 0 auto;
 }
 
@@ -40,7 +45,7 @@ input{
     padding: 0.5rem;
 }
 
-input[type="checkbox"] {
+input[type="radio"] {
     width: 17px;
     height: 17px;
 }

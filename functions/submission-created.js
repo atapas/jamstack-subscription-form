@@ -4,9 +4,9 @@ exports.handler = async (event) => {
   const body = JSON.parse(event.body);
   const data = body.payload.data;
   console.log({data});
-  const { email, fullName, interests } = data;
+  const { email, fullName, frequency } = data;
 
-  console.log({email, fullName, interests});
+  console.log({email, fullName, frequency});
 
   const response = await fetch("https://graphql.fauna.com/graphql", {
     method: "POST",
@@ -15,18 +15,18 @@ exports.handler = async (event) => {
     },
     body: JSON.stringify({
       query: `
-        mutation($fullName: String!, $email: String!, $interests: [String!]!) {
-            createEntry(data: { fullName: $fullName, email: $email, interests: $interests }) {
+        mutation($fullName: String!, $email: String!, $frequency: String!) {
+            createEntry(data: { fullName: $fullName, email: $email, frequency: $frequency }) {
             _id
             fullName
             email
-            interests
+            frequency
           }
         }      
       `,
       variables: {
         fullName,
-        interests,
+        frequency,
         email,
       },
     }),

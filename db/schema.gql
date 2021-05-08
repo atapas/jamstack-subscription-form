@@ -1,7 +1,7 @@
 type Entry {
   fullName: String!
   email: String!
-  interests: [String!]!
+  frequency: String!
 }
 
 type Query {
