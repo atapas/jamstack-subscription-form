@@ -3,6 +3,9 @@
 Let's build a subscription form using the `JAMstack` concept. `Netlify` comes with the form handling capability that allows you achieve the power of JAMstack for form handling.
 
 With this project, we will build a simple(yet powerful) `Subscription` form and submit it using the Netlify forms capability. We will use the `Netlify Functions` to handle the form data and store it in a serverless data store called `Fauna`.
+
+# Want to Motivate?
+Have you foint this project helpful? You can give a star(⭐) to let me know, you care.
 # How to run this project?
 - Clone this repository and change the directory to `jamstack-subscription-form`.
 - Install `netlify-cli`. [Use this link](https://docs.netlify.com/cli/get-started/) to create an account with Netlify and install the CLI tool.
