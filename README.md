@@ -7,7 +7,7 @@ With this project, we will build a simple(yet powerful) `Subscription` form and 
 # Want to Motivate?
 Have you foint this project helpful? You can give a star(⭐) to let me know, you care.
 
-# Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
+## Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
 [![Stargazers repo roster for @atapas/jamstack-subscription-form](https://reporoster.com/stars/atapas/jamstack-subscription-form)](https://github.com/atapas/jamstack-subscription-form/stargazers)
 
